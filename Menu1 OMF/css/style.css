@@ -1,0 +1,203 @@
+/****** General ***********/
+
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    margin: -8px
+}
+
+
+.logoOMF {
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+    margin-bottom: 13px;
+}
+
+.logoOMF img {
+    width: 152px;
+    height: 30px;
+}
+
+.fleche {
+    position: absolute;
+    top: 25px;
+    left: 20px;
+}
+
+.logoflch {
+    height: 15px;
+}
+
+.image1 {
+    height: 280px;
+    width: 100%;
+}
+
+.card {
+    background-color: #F6F6F6;
+    border-radius: 40px;
+    padding: 5px;
+    filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.15));
+    margin-top: -40px;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 20px;
+}
+
+.lpdg {
+    height: 26px;
+    width: 250px;
+    margin-left: -30px;
+}
+
+.coeur {
+    width: 25px;
+    height: 22px;
+    margin-right: -10px;
+}
+
+h1 {
+    font-size: 16px;
+    font-weight: 300;
+    border: 3px solid #99E2D0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 10%;
+}
+
+.entree {
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+    padding: 10px;
+}
+
+
+
+.entree .card {
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 15px;
+    height: 80px;
+    filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.15));
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+h2 {
+    font-size: 17px;
+    margin-bottom: -10px;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: 700;
+    position: relative;
+    float: right;
+    margin-top: -35px;
+    margin-right: 10px;
+}
+
+#commander {
+   background: linear-gradient(193.3deg, #9356DC, #FF79DA);
+   border-radius: 25px;
+   padding: 15px;
+   font-size: 15px;
+   padding-left: 45px;
+   padding-right: 45px;
+   color: white;
+   border: none;
+   text-decoration: none;
+   font-weight: 500;
+}
+
+.button {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.ft {
+    height: 180px;
+}
+
+.foot {
+    background-color: #353535;
+}
+
+.logoOMF2 {
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo2 {
+    color: white;
+}
+
+.prpanddvp {
+    margin-bottom: -28px;
+    margin-left: 20px;
+}
+
+.prpunr {
+    display: flex;
+    margin-bottom: -17px;
+    margin-top: -15px
+}
+
+.dvp {
+    display: flex;
+    margin-bottom: -27px;
+}
+
+.icouverts,
+.icmains {
+    height: 13px;
+    padding-top: 12px;
+    padding-right: 10px;
+}
+
+.ft h3 {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+li {
+    list-style: none;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+ul {
+    text-align: left;
+    margin-left: -20px;
+    line-height: 25px
+}
+
