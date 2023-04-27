@@ -1,0 +1,314 @@
+/****** General ***********/
+
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+p {
+    font-weight: 300;
+    font-size: 17px;
+    color: #353535;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 25px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-top: 10px
+}
+
+
+
+.card {
+    background-color: #F7F7F7;
+    border-radius: 20px;
+    padding: 5px;
+    filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.15));
+}
+
+
+
+.container {
+    margin: -8px
+}
+
+
+.logoOMF {
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+    margin-bottom: 13px;
+}
+
+.logoOMF img {
+    width: 152px;
+    height: 30px;
+}
+
+.loc {
+    background-color: #EAEAEA;
+    width: 100%;
+    height: 50px;
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.searchbar {
+    margin-top: -18px;
+    margin-left: 70px;
+}
+
+#search {
+    font-size: 15px;
+    font-weight: 400;
+    color: #353535;
+    border-style: none;
+    background: none;
+    margin-left: 5px;
+}
+
+.locicon {
+    margin-top: 14px;
+    margin-left: 50px;
+}
+
+
+.bookym {
+    background-color: #F6F6F6;
+    height: 290px;
+}
+
+.bookyourmenu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.bookyourmenu p {
+    margin-top: -5px;
+}
+
+#explore {
+   background: linear-gradient(193.3deg, #9356DC, #FF79DA);
+   border-radius: 25px;
+   padding: 15px;
+   font-size: 15px;
+   padding-left: 20px;
+   padding-right: 20px;
+   color: white;
+   border: none;
+}
+
+.expbut {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.fct-cards .card {
+    width: 82%;
+    display: flex;
+    justify-content: center;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    margin-right: -8px;
+}
+
+.fct-cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    margin-left: 35px;
+    margin-bottom: 65px;
+}
+
+.mobilicon,
+.listicon,
+.storicon {
+    font-size: 20px;
+    margin-left: -50px;
+    padding-top: 10px;
+    color: #7E7E7E;
+}
+
+.bloc1 {
+    background-color: #9356DC;
+    height: 24px;
+    width: 24px;
+    border-radius: 90px;
+    position: absolute;
+    left: -10px;
+    bottom: 20px;
+}
+
+.fct-cards p {
+    color: white;
+    margin-top: 4px;
+    margin-left: 8px;
+    font-size: 14px;
+}
+
+.fct h1 {
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+
+.restaurants {
+    background-color: #F6F6F6;
+}
+
+.rest {
+    padding-bottom: 70px;
+}
+
+
+.rest h1 {
+    margin-left: 15px;
+    padding-top: 50px;
+}
+
+.resto1 {
+    object-fit: cover;
+    height: 160px;
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+
+.rest-cards .card {
+    padding: 0;
+    width: 90%;
+    background-color: white;
+}
+
+.rest-cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.rest-cards p {
+    font-size: 17px;
+    margin-top: -15px;
+}
+
+.rest-cards .card-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    gap: 0;
+}
+
+.coeur {
+    height: 20px;
+    width: 22px;
+    position: absolute;
+    right: 25px;
+    bottom: 35px;
+}
+
+
+.bloc2 {
+    background-color: #99E2D0;
+    height: 25px;
+    width: 80px;
+    position: absolute;
+    top: 12px;
+    right: 14px;
+}
+
+h4 {
+    color: #008766;
+    font-size: 13px;
+    position: absolute;
+    top: -12px;
+    font-weight: 400;
+    right: 14px;
+}
+
+.ft {
+    height: 180px;
+}
+
+.foot {
+    background-color: #353535;
+}
+
+.logoOMF2 {
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo2 {
+    color: white;
+}
+
+.prpanddvp {
+    margin-bottom: -28px;
+    margin-left: 20px;
+}
+
+
+.prpunr {
+    display: flex;
+    margin-bottom: -20px;
+}
+
+.dvp {
+    display: flex;
+}
+
+.icouverts,
+.icmains {
+    height: 13px;
+    padding-top: 12px;
+    padding-right: 10px;
+}
+
+.ft h3 {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+li {
+    list-style: none;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+ul {
+    text-align: left;
+    margin-left: -20px;
+    line-height: 22px
+}
