@@ -6,14 +6,33 @@
     font-family: 'Roboto', sans-serif;
 }
 
-h4 {
-    font-family: 'Shrikhand', cursive;
-    font-size: 28px;
-    font-style: italic;
-    font-weight: 400;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: -60px;
+
+h1 {
+    font-size: 16px;
+    font-weight: 300;
+    border: 3px solid #99E2D0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 10%;
+}
+
+h2 {
+    font-size: 17px;
+    margin-bottom: -10px;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: 700;
+    position: relative;
+    margin-left: -50px;
+    margin-top: 38px;
 }
 
 
@@ -27,6 +46,19 @@ body {
     margin: -8px
 }
 
+.card {
+    background-color: #F6F6F6;
+    border-radius: 40px;
+    padding: 5px;
+    filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.15));
+    margin-top: -40px;
+}
+
+
+/* Le CSS ci-dessous concerne le header */
+
+
+/* Ces 4 classes correspondent au logo et à la flèche au top de la page */ 
 
 .logoOMF {
     display: flex;
@@ -57,13 +89,7 @@ body {
 }
 
 
-.card {
-    background-color: #F6F6F6;
-    border-radius: 40px;
-    padding: 5px;
-    filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.15));
-    margin-top: -40px;
-}
+/* Ces 2 classes correspondent au nom du restaurant */
 
 .title {
     display: flex;
@@ -74,11 +100,18 @@ body {
 }
 
 
-.lpdg {
-    height: 26px;
-    width: 250px;
-    margin-left: -30px;
+h4 {
+    font-family: 'Shrikhand', cursive;
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: -60px;
 }
+
+
+/* Ces classes correspondent au coeur qui se colore */
 
 .title i{
     font-size: 23px;
@@ -100,16 +133,8 @@ body {
     }
 
 
+/* Ce CSS correspond aux cartes intéractives des plats */ 
 
-h1 {
-    font-size: 16px;
-    font-weight: 300;
-    border: 3px solid #99E2D0;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    width: 10%;
-}
 
 .catégories {
     display: flex;
@@ -130,70 +155,9 @@ h1 {
     padding-bottom: 0;
 }
 
-h2 {
-    font-size: 17px;
-    margin-bottom: -10px;
-}
-
-p {
-    font-size: 15px;
-    font-weight: 300;
-}
-
-h3 {
-    font-size: 15px;
-    font-weight: 700;
-    position: relative;
-    margin-left: -50px;
-    margin-top: 38px;
-}
-
-#commander {
-   background: linear-gradient(193.3deg, #9356DC, #FF79DA);
-   border-radius: 25px;
-   padding: 15px;
-   font-size: 15px;
-   padding-left: 45px;
-   padding-right: 45px;
-   color: white;
-   border: none;
-   text-decoration: none;
-   font-weight: 500;
-}
-
-#commander:hover { 
-    background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.35);
-}
-
-.button {
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 40px;
-}
 
 
-.card .entree1 h2 {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
-
-
-
-.entree1 {
-    display: flex;
-    overflow: hidden;
-}
-
-.littlecardcontent:active + .bloce1 {
-    transform: translate(-75px);
-}
-
-.littlecardcontent:active + .price {
-    transform: translate(-100px);
-}
+/* Ces 2 classes correspondent au bloc bleu qui apparaît au survol de chaque carte */
 
 
 
@@ -222,7 +186,7 @@ h3 {
     top: 40px;
 }
 
-
+/* Le CSS ci-dessus correspond à l'animation qui se déroule au survol (décalage du bloc et du prix */ 
 
 .littlecardcontent {
     display: flex;
@@ -261,11 +225,39 @@ h3 {
 }
 
 
+/* Ce CSS correspond au bouton animé "Commander" */
 
+#commander {
+    background: linear-gradient(193.3deg, #9356DC, #FF79DA);
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 15px;
+    padding-left: 45px;
+    padding-right: 45px;
+    color: white;
+    border: none;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#commander:hover { 
+    background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.35);
+}
+ 
+.button {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+
+/* Le CSS suivant correspond au footer */
 
 .foot {
-  background-color: #353535;
-  height: 220px;
+    background-color: #353535;
+    height: 220px;
 }
 
 .ft h3 {
@@ -276,8 +268,8 @@ h3 {
 }
 
 .ft {
-   display: flex;
-   flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .prpunr,
