@@ -158,7 +158,6 @@ h3 {
     justify-content: center;
     flex-direction: column;
     gap: 20px;
-    width: 100%;
     margin-left: 35px;
     margin-bottom: 65px;
 }
@@ -324,6 +323,7 @@ h4 {
     position: relative;
 top: -150px;
 left: 20px;
+width: 90%;
 }
 
 .logo2 {
@@ -380,6 +380,11 @@ ul {
     flex-direction: column;
     gap: 5px;
 }
+
+.prpanddvpandul a:link {
+    color: white;
+}
+
 
 /* Large devices (tablets, more/equal than 1440px) */
 @media (min-width: 1024px) {
@@ -472,6 +477,7 @@ ul {
     position: relative;
     top: 20px;
     left: 20px;
+    width: 100px;
 }
 
 .icouverts,
@@ -486,6 +492,9 @@ li {
     font-size: 16px;
     font-weight: 400;
 }
+
+
+
 
 ul {
     display: flex;

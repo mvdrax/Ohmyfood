@@ -92,7 +92,7 @@ h3 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 60px;
+    gap: 40px;
     margin-top: 20px;
 }
 
@@ -103,7 +103,7 @@ h4 {
     font-weight: 400;
     margin-top: 0;
     margin-bottom: 0;
-    margin-left: -60px;
+    margin-left: -20px;
 }
 
 /* Ces classes correspondent au coeur qui se colore */
@@ -295,6 +295,7 @@ margin-top: -40px;
     position: relative;
 top: -180px;
 left: 20px;
+width: 90%;
 }
 
 .prpanddvpandul {
@@ -317,6 +318,11 @@ ul {
     gap: 15px;
     flex-direction: column;
     margin-left: -20px
+}
+
+.prpanddvpandul a:link {
+    color: white;
+    text-decoration: none;
 }
 
 /* Large devices (tablets, more/equal than 1440px) */
@@ -409,6 +415,7 @@ ul {
         position: relative;
     top: 20px;
     left: 20px;
+    width: 100px;
     }
     
     .logo2 {
